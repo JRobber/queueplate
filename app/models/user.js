@@ -45,7 +45,7 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.CHAR(2)
     },
     addZip: {
-      type: DataTypes.INTEGER(5)
+      type: DataTypes.INTEGER(5).UNSIGNED
     },
     //END ADDRESS INFO
     age: {
